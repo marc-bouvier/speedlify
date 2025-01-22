@@ -2,6 +2,7 @@
   "name": "speedlify",
   "version": "1.0.0",
   "description": "",
+  "type": "commonjs",
   "scripts": {
     "clean": "rm -rf _data/results/* && rm -rf .log && rm -rf _site",
     "test-pages": "node run-tests",
