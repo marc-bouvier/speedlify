@@ -4,6 +4,8 @@ const shortHash = require("short-hash");
 const fastglob = require("fast-glob");
 const PerfLeaderboard = require("performance-leaderboard");
 
+// See variant ?  : https://github.com/delucis/hyperdrive-speedometer/blob/latest/scripts/collect-stats.js
+
 const NUMBER_OF_RUNS = 3;
 const FREQUENCY = 60; // in minutes
 const NETLIFY_MAX_LIMIT = 15; // in minutes, netlify limit
