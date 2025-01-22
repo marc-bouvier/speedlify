@@ -24,10 +24,10 @@ jobs:
         if: steps.checkout-results.outcome == 'success'
         run: cp -r results/. default/_data
       - name: Install dependencies
-        run: yarn install
+        run: npm ci
         working-directory: default
       - name: Run test-pages
-        run: yarn run test-pages
+        run: npm run test-pages
         working-directory: default
       - name: Upload results artifact
         uses: actions/upload-artifact@v4
@@ -57,8 +57,8 @@ jobs:
           fi
       - name: Build speedlify
         run: |
-          yarn run build -- --pathprefix=${GITHUB_REPOSITORY#*/}
-          yarn run zip-results
+          npm run build -- --pathprefix=${GITHUB_REPOSITORY#*/}
+          npm run zip-results
         working-directory: default
       - name: Deploy to gh-pages branch
         run: |
