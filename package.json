@@ -15,19 +15,19 @@
     "lighthouse"
   ],
   "author": {
-    "name": "Zach Leatherman",
-    "email": "zachleatherman@gmail.com",
-    "url": "https://zachleat.com/"
+    "name": "Marc Bouvier",
+    "email": "baldir.fr@gmail.com",
+    "url": "https://baldir.fr/"
   },
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zachleat/speedlify.git"
+    "url": "git+https://github.com/marc-bouvier/speedlify.git"
   },
   "bugs": {
-    "url": "https://github.com/zachleat/speedlify/issues"
+    "url": "https://github.com/marc-bouvier/speedlify/issues"
   },
-  "homepage": "https://github.com/zachleat/speedlify#readme",
+  "homepage": "https://github.com/marc-bouvier/speedlify#readme",
   "devDependencies": {
     "@11ty/eleventy": "^3.0.0",
     "@11ty/eleventy-fetch": "^5.0.0-beta.3",
@@ -42,5 +42,6 @@
   "dependencies": {
     "chartist": "^0.11.4",
     "speedlify-score": "^4.0.1"
-  }
+  },
+  "packageManager": "yarn@1.22.21+sha1.1959a18351b811cdeedbd484a8f86c3cc3bbaf72"
 }
